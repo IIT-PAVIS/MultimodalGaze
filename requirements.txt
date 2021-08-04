@@ -1,0 +1,9 @@
+pandas
+numpy
+torchvision
+torch
+argparse
+pathlib
+matplotlib
+opencv-python
+tqdm 
