@@ -1,13 +1,13 @@
 # MultimodalGaze
-***Code of ICMI 2021 paper: "Predicting Gaze from Egocentric Social Interaction Videos and IMU Data"***
+## Code of ICMI 2021 paper: "Predicting Gaze from Egocentric Social Interaction Videos and IMU Data"
 
 You need to download additional modules to run the repo. 
 
-**Flownet**
+**Flownet [1]**
 ```
 git clone https://github.com/ClementPinard/FlowNetPytorch.git
 ```
-**I3d network:**
+**I3d network [2]**
 ```
 https://github.com/piergiaj/pytorch-i3d.git 
 ```
@@ -30,8 +30,19 @@ Vision only : `VISION_PIPELINE`, Multimodal: `FUSION_PIPELINE`
 
 Vision only : `Flownet_PIPELINE`, Multimodal: `OF_FUSION_PIPELINE`
 
-**Data**
+## Data
 The models were trained on a new dataset collected by the authors for Social Interaction based scenarios in the wild. It will be made public in future. 
 
 All the checkpoints will be made available when the dataset will be made public. 
+
+## References
+<a id="1">[1]</a> 
+Dosovitskiy, et al. ICCV (2015). 
+FlowNet: Learning Optical Flow with Convolutional Networks
+: http://lmb.informatik.uni-freiburg.de/Publications/2015/DFIB15
+
+<a id="1">[2]</a> 
+Carreira, et al. CVPR (2017). 
+Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset
+: https://openaccess.thecvf.com/content_cvpr_2017/html/Carreira_Quo_Vadis_Action_CVPR_2017_paper.html
 
